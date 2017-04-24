@@ -56,6 +56,9 @@
         font-style: italic;
         color: #777;
     }	
+	img#bg {
+    display: none;
+  }
 }
 
 @media (max-device-width:768px) and (orientation: landscape) {

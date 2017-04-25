@@ -146,6 +146,13 @@ table#t01 td img {
 	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
+.center {
+    display:block; 
+	text-align:center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 #content .toc {
   padding-left: 20px; 
   margin-left: 20px; }

@@ -1,0 +1,26 @@
+html{
+	margin: 0;
+	padding: 0;
+	height: 100%
+}  
+  
+body {	
+    background:url('../images/vertical.png');/*can changed to: horizontal.png */
+     -webkit-background-size: cover; 
+    background-size: cover; 
+    background-color:#131111; 
+	font-family: verdana, sans-serif, arial, helvetica;
+	font-size: 16px;
+	color:#000000;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#content {
+	margin: 0 auto;
+	width: 900px;
+	padding: 5px;
+	background-color: #FFFFFF;
+	color:#000000;
+}

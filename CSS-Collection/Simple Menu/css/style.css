@@ -1,0 +1,75 @@
+html{
+	margin: 0;
+	padding: 0;
+	height: 100%
+}  
+  
+body {	
+    background-color:#052e2d; 
+	font-family: verdana, sans-serif, arial, helvetica;
+	font-size: 16px;
+	color:#000000;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#content {
+	margin: 0 auto;
+	width: 900px;
+	padding: 5px;
+	background-color: #FFFFFF;
+	color:#000000;
+}
+
+#menu-container
+{
+padding: 5px 15px 0 15px;
+background:#052e2d;
+display: table; 
+margin: 0 auto;
+}
+ul#simple-menu
+{
+list-style-type:none;
+width:100%;
+position:relative;
+height:27px;
+font-family: index-font;
+font-size:13px;
+font-weight:bold;
+margin:0;
+padding:1px 0 0 0;
+}
+ul#simple-menu li{display:block;float:left;margin:0 0 0 4px;height:27px;}
+ul#simple-menu li.left{margin:0;}
+ul#simple-menu li a{display:block;float:left;color:#fff;background:#4A6867;line-height:27px;text-decoration:none;padding:0 17px 0 18px;height:27px;}
+ul#simple-menu li a.right{padding-right:19px;}
+ul#simple-menu li a:hover{
+background:#2E4560;
+color:#000;
+text-shadow: -1px -1px 0 #00ff00, 1px -1px 0 #00ff00, -1px 1px 0 #00ff00, 1px 1px 0 #00ff00, 
+	0 0 3px #00ff00, 2px -2px 4px #00ff00, -3px -3px 5px #00ff00, 3px -5px 8px #00ff00, -3px -8px 15px #00ff00, 0 -10px 9px #00ff00, 2px -12px 10px #381CB4;
+	
+	text-shadow: 	-1px -1px 0 #00ff00, 1px -1px 0 #00ff00, -1px 1px 0 #00ff00, 1px 1px 0 #00ff00, 
+					0 0 3px #00ff00, 
+					2px -2px 4px #00ff00, 
+					-3px -3px 5px #00ff00, 
+					3px -5px 8px #00ff00, 
+					-3px -8px 15px #00ff00, 
+					0 -10px 9px #00ff00, 
+					2px -12px 10px #00ff00; 
+	text-shadow: 	-1px -1px 0 #00ff00, 1px -1px 0 #00ff00, -1px 1px 0 #00ff00, 1px 1px 0 #00ff00, 
+					0 0 3px rgba(153,197,250,0.7), 
+					2px -2px 4px rgba(98,221,218,0.7), 
+					-3px -3px 5px rgba(0,138,224,0.8), 
+					3px -5px 8px rgba(27,113,224,0.8), 
+					-3px -8px 15px rgba(27,76,224,0.9), 
+					0 -10px 9px rgba(0,65,106,0.9), 
+					2px -12px 10px rgba(56,28,180,1.0);
+
+	    -text-shadow:  
+				0 0 3px #00ff00, 2px -2px 4px #00ff00, -3px -3px 5px #00ff00, 3px -5px 8px #00ff00, -3px -8px 15px #00ff00, 0 -10px 9px #00ff00, 2px -12px 10px #00ff00;
+}
+ul#simple-menu li a.current{color:#2E4560;background:#fff;}
+ul#simple-menu li a.current:hover{color:#2E4560;background:#fff;text-decoration: none;}

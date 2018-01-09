@@ -1,6 +1,6 @@
 @font-face {
-    font-family: teletext;
-    src: url(MODE7GX3.TTF);
+    font-family: OpenSans;
+    src: url(OpenSans-Regular.TTF);
 }
 
 @media all and (max-width: 640px)
@@ -77,7 +77,7 @@ html{
 body {
 	background-color: #000000;
 	font-family: verdana, sans-serif, arial, helvetica;
-	font-size: 16px;
+	font-size: 12px;
 	color:#000;
 	margin: 0;
 	padding: 0;
@@ -115,12 +115,19 @@ table#t01 td img {
 	width: 900px;
 	background-color: #000000;
 	color:#FFFFFF;
-	line-height: 150%;
-	font-family: teletext; font-size: 13pt; text-align: justify; 
+	line-height: 100%;
+	font-family: OpenSans; font-size: 13pt; text-align: justify; 
 	border-left: 2px solid #226C22; 
 	border-right: 2px solid #226C22;
 	padding-left: 5px;
 	padding-right: 5px;
+}
+
+#logo img{
+margin-left: auto;
+margin-right: auto;
+position:center;
+display: block;
 }
 
 #content p
@@ -153,14 +160,6 @@ table#t01 td img {
 	margin-left: auto;
 }
 
-
-.ascii-art {
-    font-family: monospace;
-    white-space: pre;
-	color: #669999;
-	line-height: 115%;
-}
-
 #content .toc {
   padding-left: 20px; 
   margin-left: 20px; }
@@ -173,7 +172,7 @@ table#t01 td img {
     color: #000; }
   .toc ul {
 	border-left: 7px solid;
-    border-left-color: #a89868;
+    border-left-color: #226C22;
     list-style: none;
     list-style-type: none;
     margin-top: 0;
@@ -199,8 +198,7 @@ table#t01 td img {
 
 #content .linksright{
 	overflow: auto;
-	width: 79%;
-	padding: 150px 0px 0px 0px; 
+	width: 100%;
 	display: block;
     text-align: right;
 	margin: 0 auto;
